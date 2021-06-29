@@ -20,7 +20,7 @@ while i<=100:
             mangalist.append(
                 {"Rank" : manga.text.split("\n")[0],
                  "Judul" : manga.text.split("\n")[1],
-                 "Tahun Rilis" : manga.text.split("\n")[3]. split(" -")[0],
+                 "Tahun_Rilis" : manga.text.split("\n")[3]. split(" -")[0],
                  "Members" : manga.text.split("\n")[4],
                  "Rating" : manga.text.split("\n")[5].split()[0],
                  "Image" : img.get_attribute("src")
