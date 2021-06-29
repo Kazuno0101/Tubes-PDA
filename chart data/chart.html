@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Document</title>
+
+          <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+          <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" />
+          <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+     </head>
+     <body>
+          <!-- chart1 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart1 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart1"></div>
+               </div>
+          </div>
+
+          <!-- chart2 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart2 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart2"></div>
+               </div>
+          </div>
+
+          <!-- chart3 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart3 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart3"></div>
+               </div>
+          </div>
+
+          <!-- chart4 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart4 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart4"></div>
+               </div>
+          </div>
+
+          <!-- chart5 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart5 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart5"></div>
+               </div>
+          </div>
+
+          <!-- chart6 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart6 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart6"></div>
+               </div>
+          </div>
+
+          <!-- chart7 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart7 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart7"></div>
+               </div>
+          </div>
+
+          <!-- chart8 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart8 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart8"></div>
+               </div>
+          </div>
+
+          <!-- chart9 -->
+          <div class="row mt-5">
+               <div class="col-lg-12">
+                    <div class="section-heading">
+                         <h6>Chart Pie</h6>
+                         <p>Genre Paling Banayak</p>
+                    </div>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="ct-chart ct-chart9 ct-golden-section"></div>
+               </div>
+               <div class="col-md-6">
+                    <div id="chart9"></div>
+               </div>
+          </div>
+
+          <script>
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('berserk.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart1').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart1', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('vagabond.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart2').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart2', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('FullMetal.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart3').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart3', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('Grand Blue.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart4').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart4', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('Jojo No Kimyou.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart5').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart5', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('kingdom.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart6').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart6', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('one piece.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart7').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart7', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('oyasumi.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart8').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart8', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('slam Dunk.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         // str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         // str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         // str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         // str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart9').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Drama];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart9', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+          </script>
+     </body>
+</html>

@@ -1,0 +1,2776 @@
+[
+  {
+    "completions": [
+      {
+        "created_at": 1624373571,
+        "id": 53001,
+        "lead_time": 15.868,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "rxEOoWEY3a",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.98876404494382,
+                  99.375
+                ],
+                [
+                  98.65168539325843,
+                  99.53125
+                ],
+                [
+                  99.5505617977528,
+                  0.625
+                ],
+                [
+                  8.98876404494382,
+                  0.46875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/c158d1-54.png"
+    },
+    "id": 53
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373327,
+        "id": 48001,
+        "lead_time": 18.68,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "16llRJjYfI",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  0.3125
+                ],
+                [
+                  91.68539325842697,
+                  0.15625
+                ],
+                [
+                  91.01123595505618,
+                  98.59375
+                ],
+                [
+                  0.898876404494382,
+                  98.75
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/8e3b00-49.png"
+    },
+    "id": 48
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372900,
+        "id": 40001,
+        "lead_time": 22.156,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "fV-HbHmy9O",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  99.53125
+                ],
+                [
+                  0.6741573033707865,
+                  0.3125
+                ],
+                [
+                  90.78651685393258,
+                  0.78125
+                ],
+                [
+                  90.78651685393258,
+                  98.90625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/7a7ba8-41.png"
+    },
+    "id": 40
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373215,
+        "id": 45001,
+        "lead_time": 23.532,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "aTFgFLyoG2",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  91.91011235955057,
+                  100
+                ],
+                [
+                  5.393258426966292,
+                  99.53125
+                ],
+                [
+                  5.393258426966292,
+                  7.1875
+                ],
+                [
+                  90.11235955056179,
+                  7.34375
+                ],
+                [
+                  91.46067415730337,
+                  100
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/ab5a8d-46.png"
+    },
+    "id": 45
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372391,
+        "id": 30001,
+        "lead_time": 18.11,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "cacrdFHpQJ",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  99.6875
+                ],
+                [
+                  90.78651685393258,
+                  99.21875
+                ],
+                [
+                  91.01123595505618,
+                  0
+                ],
+                [
+                  0.2247191011235955,
+                  0.3125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/fa3a7b-31.png"
+    },
+    "id": 30
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624370986,
+        "id": 8001,
+        "lead_time": 18.076,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "CojSiJOhwO",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.089887640449438,
+                  3.75
+                ],
+                [
+                  92.80898876404494,
+                  2.34375
+                ],
+                [
+                  94.15730337078652,
+                  94.21875
+                ],
+                [
+                  7.640449438202247,
+                  95.625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/ddf697-9.png"
+    },
+    "id": 8
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372460,
+        "id": 32001,
+        "lead_time": 26.811,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "K-hT8dHVyJ",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  99.21875
+                ],
+                [
+                  92.13483146067416,
+                  99.375
+                ],
+                [
+                  90.33707865168539,
+                  0.3125
+                ],
+                [
+                  0.449438202247191,
+                  0.9375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/d320fd-33.png"
+    },
+    "id": 32
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371825,
+        "id": 21001,
+        "lead_time": 23.974,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "3YPq1n0T1G",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  90.56179775280899,
+                  0.15625
+                ],
+                [
+                  91.01123595505618,
+                  98.59375
+                ],
+                [
+                  0.449438202247191,
+                  99.0625
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/fc3154-22.png"
+    },
+    "id": 21
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373605,
+        "id": 54001,
+        "lead_time": 14.415,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Kyz2AWCeB2",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  99.375
+                ],
+                [
+                  90.56179775280899,
+                  98.59375
+                ],
+                [
+                  89.88764044943821,
+                  0.3125
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/31353b-55.png"
+    },
+    "id": 54
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371386,
+        "id": 16001,
+        "lead_time": 34.929,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "xgIMKtpCL4",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  0.3125
+                ],
+                [
+                  94.6067415730337,
+                  0
+                ],
+                [
+                  94.6067415730337,
+                  92.96875
+                ],
+                [
+                  0.2247191011235955,
+                  92.65625
+                ],
+                [
+                  0.449438202247191,
+                  0
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/562fd8-17.png"
+    },
+    "id": 16
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373631,
+        "id": 55001,
+        "lead_time": 15.094,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "3_Uo90h-Lg",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.539325842696629,
+                  6.875
+                ],
+                [
+                  90.33707865168539,
+                  6.875
+                ],
+                [
+                  91.23595505617978,
+                  93.4375
+                ],
+                [
+                  8.98876404494382,
+                  92.1875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/458038-56.png"
+    },
+    "id": 55
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373181,
+        "id": 44001,
+        "lead_time": 69.324,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "QP9uhVkbeb",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.6741573033707865,
+                  0.15625
+                ],
+                [
+                  90.78651685393258,
+                  0.78125
+                ],
+                [
+                  91.01123595505618,
+                  98.28125
+                ],
+                [
+                  0.2247191011235955,
+                  98.75
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/a3aa48-45.png"
+    },
+    "id": 44
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373535,
+        "id": 52001,
+        "lead_time": 18.982,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "0b-BtmL99t",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.6741573033707865,
+                  99.21875
+                ],
+                [
+                  91.23595505617978,
+                  98.75
+                ],
+                [
+                  90.33707865168539,
+                  0.3125
+                ],
+                [
+                  0.6741573033707865,
+                  0.46875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/1de981-53.png"
+    },
+    "id": 52
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372556,
+        "id": 34001,
+        "lead_time": 17.687,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "2WeKdeyPwp",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  1.348314606741573,
+                  0
+                ],
+                [
+                  90.78651685393258,
+                  0.9375
+                ],
+                [
+                  91.68539325842697,
+                  98.75
+                ],
+                [
+                  0,
+                  99.375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/67c8ff-35.png"
+    },
+    "id": 34
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372216,
+        "id": 27001,
+        "lead_time": 44.043,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "dhzIXeQkrm",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.314606741573034,
+                  7.03125
+                ],
+                [
+                  91.68539325842697,
+                  6.875
+                ],
+                [
+                  91.91011235955057,
+                  93.125
+                ],
+                [
+                  8.539325842696629,
+                  92.34375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/630200-28.png"
+    },
+    "id": 27
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373389,
+        "id": 49001,
+        "lead_time": 27.856,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "tZn_KZsU0Y",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.415730337078652,
+                  92.96875
+                ],
+                [
+                  99.10112359550561,
+                  92.96875
+                ],
+                [
+                  99.32584269662921,
+                  0
+                ],
+                [
+                  7.865168539325842,
+                  0
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/2a880c-50.png"
+    },
+    "id": 49
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371592,
+        "id": 18001,
+        "lead_time": 61.032,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "F6bj6Rls2z",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  0.15625
+                ],
+                [
+                  93.93258426966293,
+                  0.46875
+                ],
+                [
+                  93.25842696629213,
+                  92.5
+                ],
+                [
+                  1.797752808988764,
+                  92.5
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/be0867-19.png"
+    },
+    "id": 18
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371056,
+        "id": 10001,
+        "lead_time": 15.719,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "p1r74998rC",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.2247191011235955,
+                  0
+                ],
+                [
+                  91.23595505617978,
+                  0
+                ],
+                [
+                  91.23595505617978,
+                  94.0625
+                ],
+                [
+                  0,
+                  93.90625
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/eb05a7-11.png"
+    },
+    "id": 10
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371955,
+        "id": 23001,
+        "lead_time": 37.69,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "A6Pi1mLTY_",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.640449438202247,
+                  0.46875
+                ],
+                [
+                  93.25842696629213,
+                  0.3125
+                ],
+                [
+                  93.70786516853933,
+                  93.125
+                ],
+                [
+                  8.764044943820224,
+                  94.21875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/26be19-24.png"
+    },
+    "id": 23
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372517,
+        "id": 33001,
+        "lead_time": 48.349,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "p--n9H26Uq",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.314606741573034,
+                  99.375
+                ],
+                [
+                  8.314606741573034,
+                  0.15625
+                ],
+                [
+                  99.5505617977528,
+                  0.46875
+                ],
+                [
+                  99.5505617977528,
+                  99.0625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/6657de-34.png"
+    },
+    "id": 33
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372421,
+        "id": 31001,
+        "lead_time": 21.034,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "nZmw_CYOEj",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.539325842696629,
+                  7.96875
+                ],
+                [
+                  90.11235955056179,
+                  7.34375
+                ],
+                [
+                  89.88764044943821,
+                  93.125
+                ],
+                [
+                  8.089887640449438,
+                  92.8125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/1eb9ea-32.png"
+    },
+    "id": 31
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372766,
+        "id": 37001,
+        "lead_time": 55.491,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "xerYSN7L2Y",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.764044943820224,
+                  0.3125
+                ],
+                [
+                  99.32584269662921,
+                  0.15625
+                ],
+                [
+                  99.5505617977528,
+                  99.375
+                ],
+                [
+                  8.98876404494382,
+                  99.21875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/2dff3d-38.png"
+    },
+    "id": 37
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372955,
+        "id": 41001,
+        "lead_time": 37.716,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ugN7uzKeAc",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  5.842696629213483,
+                  63.90625
+                ],
+                [
+                  5.617977528089888,
+                  92.65625
+                ],
+                [
+                  90.33707865168539,
+                  92.8125
+                ],
+                [
+                  89.88764044943821,
+                  64.0625
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "VVF_P93fmT",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  5.168539325842697,
+                  61.40625
+                ],
+                [
+                  89.21348314606742,
+                  60.3125
+                ],
+                [
+                  88.31460674157303,
+                  0
+                ],
+                [
+                  5.842696629213483,
+                  0.15625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/e6ca45-42.png"
+    },
+    "id": 41
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372867,
+        "id": 39001,
+        "lead_time": 60.798,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "86rDNkVhCr",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.764044943820224,
+                  0.46875
+                ],
+                [
+                  99.10112359550561,
+                  0.3125
+                ],
+                [
+                  98.87640449438203,
+                  93.125
+                ],
+                [
+                  10.112359550561798,
+                  92.65625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/1a4b01-40.png"
+    },
+    "id": 39
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371693,
+        "id": 19001,
+        "lead_time": 32.179,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "lzgNpS1Kqj",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  0.625
+                ],
+                [
+                  90.11235955056179,
+                  0.3125
+                ],
+                [
+                  90.78651685393258,
+                  35
+                ],
+                [
+                  0,
+                  35
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "aeKV0_vO8I",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.2247191011235955,
+                  37.1875
+                ],
+                [
+                  90.56179775280899,
+                  36.875
+                ],
+                [
+                  89.88764044943821,
+                  98.28125
+                ],
+                [
+                  0.898876404494382,
+                  97.8125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/ca20f1-20.png"
+    },
+    "id": 19
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373077,
+        "id": 43001,
+        "lead_time": 54.987,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "MEPvex1ZHY",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.98876404494382,
+                  7.65625
+                ],
+                [
+                  98.65168539325843,
+                  7.34375
+                ],
+                [
+                  97.30337078651685,
+                  67.03125
+                ],
+                [
+                  8.314606741573034,
+                  67.34375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "lBe8tYvrAc",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.539325842696629,
+                  70.15625
+                ],
+                [
+                  7.640449438202247,
+                  99.0625
+                ],
+                [
+                  99.32584269662921,
+                  99.21875
+                ],
+                [
+                  99.5505617977528,
+                  70.3125
+                ]
+              ],
+              "polygonlabels": [
+                "Fantasy"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/07c86a-44.png"
+    },
+    "id": 43
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372302,
+        "id": 28001,
+        "lead_time": 30.172,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "dqqpt08Jza",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  4.719101123595506,
+                  0.625
+                ],
+                [
+                  94.15730337078652,
+                  0.625
+                ],
+                [
+                  93.48314606741573,
+                  92.5
+                ],
+                [
+                  0.6741573033707865,
+                  93.125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/6db0fb-29.png"
+    },
+    "id": 28
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371341,
+        "id": 15001,
+        "lead_time": 61.466,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "SeRu9sNz9D",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  6.292134831460674,
+                  0.46875
+                ],
+                [
+                  92.35955056179775,
+                  0
+                ],
+                [
+                  92.13483146067416,
+                  93.28125
+                ],
+                [
+                  4.943820224719101,
+                  92.96875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/986a72-16.png"
+    },
+    "id": 15
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371886,
+        "id": 22001,
+        "lead_time": 49.026,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "oYZed74tQt",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  6.51685393258427,
+                  0.3125
+                ],
+                [
+                  6.067415730337078,
+                  47.1875
+                ],
+                [
+                  99.10112359550561,
+                  47.65625
+                ],
+                [
+                  97.75280898876404,
+                  1.40625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "MooJYSVLK2",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  56.40449438202247,
+                  49.53125
+                ],
+                [
+                  55.95505617977528,
+                  92.96875
+                ],
+                [
+                  91.46067415730337,
+                  93.125
+                ],
+                [
+                  91.46067415730337,
+                  49.84375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "pswacWsJpq",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  6.741573033707865,
+                  49.53125
+                ],
+                [
+                  6.51685393258427,
+                  64.53125
+                ],
+                [
+                  54.60674157303371,
+                  64.6875
+                ],
+                [
+                  53.93258426966292,
+                  49.53125
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "obt0K-wGhx",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.640449438202247,
+                  67.65625
+                ],
+                [
+                  5.617977528089888,
+                  92.1875
+                ],
+                [
+                  54.157303370786515,
+                  92.65625
+                ],
+                [
+                  54.157303370786515,
+                  67.1875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/f58499-23.png"
+    },
+    "id": 22
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373004,
+        "id": 42001,
+        "lead_time": 14.349,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "jOKcVpqK6k",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  3.8202247191011236,
+                  0.46875
+                ],
+                [
+                  90.78651685393258,
+                  0
+                ],
+                [
+                  91.01123595505618,
+                  98.59375
+                ],
+                [
+                  0.449438202247191,
+                  99.6875
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/512d60-43.png"
+    },
+    "id": 42
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372796,
+        "id": 38001,
+        "lead_time": 20.04,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "gfJrbWg4OF",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  1.5730337078651686,
+                  0
+                ],
+                [
+                  90.33707865168539,
+                  0.15625
+                ],
+                [
+                  91.01123595505618,
+                  98.59375
+                ],
+                [
+                  0,
+                  99.375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/b8362a-39.png"
+    },
+    "id": 38
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371516,
+        "id": 17001,
+        "lead_time": 66.396,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "6SRKURrHRH",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.191011235955056,
+                  6.71875
+                ],
+                [
+                  91.46067415730337,
+                  6.875
+                ],
+                [
+                  90.33707865168539,
+                  92.34375
+                ],
+                [
+                  7.415730337078652,
+                  92.34375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/511cfe-18.png"
+    },
+    "id": 17
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371027,
+        "id": 9001,
+        "lead_time": 23.756,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "C8xkBN7le-",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  5.617977528089888,
+                  0.46875
+                ],
+                [
+                  91.01123595505618,
+                  0
+                ],
+                [
+                  90.78651685393258,
+                  99.21875
+                ],
+                [
+                  4.49438202247191,
+                  99.84375
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/0949ed-10.png"
+    },
+    "id": 9
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372361,
+        "id": 29001,
+        "lead_time": 48.323,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Sv9Fxx72Kv",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  4.719101123595506,
+                  92.8125
+                ],
+                [
+                  97.52808988764045,
+                  92.8125
+                ],
+                [
+                  98.20224719101124,
+                  0.15625
+                ],
+                [
+                  6.067415730337078,
+                  0
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/c82814-30.png"
+    },
+    "id": 29
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624370891,
+        "id": 6001,
+        "lead_time": 16.782,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "zSTVIp1CIQ",
+            "image_rotation": 0,
+            "original_height": 430,
+            "original_width": 640,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.20833333333333334,
+                  0
+                ],
+                [
+                  99.16666666666667,
+                  0
+                ],
+                [
+                  98.95833333333333,
+                  97.21362229102168
+                ],
+                [
+                  0.8333333333333334,
+                  97.83281733746131
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/99dd57-7.png"
+    },
+    "id": 6
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371096,
+        "id": 11001,
+        "lead_time": 26.418,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "VviGiCyNKc",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.98876404494382,
+                  7.5
+                ],
+                [
+                  99.5505617977528,
+                  7.03125
+                ],
+                [
+                  99.5505617977528,
+                  99.6875
+                ],
+                [
+                  8.98876404494382,
+                  99.21875
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/ced18b-12.png"
+    },
+    "id": 11
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373350,
+        "id": 47001,
+        "lead_time": 11.606,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "xDlRmVe25m",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.539325842696629,
+                  99.21875
+                ],
+                [
+                  99.5505617977528,
+                  98.28125
+                ],
+                [
+                  99.5505617977528,
+                  0.3125
+                ],
+                [
+                  8.314606741573034,
+                  0
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/fdb025-48.png"
+    },
+    "id": 47
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372698,
+        "id": 36001,
+        "lead_time": 72.574,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "yd51P_nlaG",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.2247191011235955,
+                  0.15625
+                ],
+                [
+                  93.03370786516854,
+                  0.15625
+                ],
+                [
+                  92.80898876404494,
+                  66.875
+                ],
+                [
+                  1.1235955056179776,
+                  67.34375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "hWSp3OFr_J",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  9.662921348314606,
+                  70.3125
+                ],
+                [
+                  8.98876404494382,
+                  91.71875
+                ],
+                [
+                  91.91011235955057,
+                  92.1875
+                ],
+                [
+                  93.70786516853933,
+                  70.15625
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/373e6b-37.png"
+    },
+    "id": 36
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371171,
+        "id": 12001,
+        "lead_time": 17.396,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "PBaPC_si1b",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  0.46875
+                ],
+                [
+                  91.23595505617978,
+                  0.15625
+                ],
+                [
+                  90.56179775280899,
+                  97.96875
+                ],
+                [
+                  0.449438202247191,
+                  98.4375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/f5f036-13.png"
+    },
+    "id": 12
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371980,
+        "id": 24001,
+        "lead_time": 13.761,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ZVN3Q7HVNN",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  9.662921348314606,
+                  6.875
+                ],
+                [
+                  96.17977528089888,
+                  7.34375
+                ],
+                [
+                  97.75280898876404,
+                  99.84375
+                ],
+                [
+                  8.314606741573034,
+                  99.375
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/de3c7d-25.png"
+    },
+    "id": 24
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371791,
+        "id": 20001,
+        "lead_time": 75.324,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "9hVyA2BcM2",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  40.2247191011236,
+                  44.0625
+                ],
+                [
+                  99.5505617977528,
+                  43.90625
+                ],
+                [
+                  99.10112359550561,
+                  92.65625
+                ],
+                [
+                  40.89887640449438,
+                  92.8125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "cCvk1jqf72",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.98876404494382,
+                  92.8125
+                ],
+                [
+                  38.20224719101124,
+                  92.65625
+                ],
+                [
+                  38.42696629213483,
+                  43.90625
+                ],
+                [
+                  9.213483146067416,
+                  43.90625
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "phsLuLi9Td",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  47.41573033707865,
+                  0.15625
+                ],
+                [
+                  99.7752808988764,
+                  0.3125
+                ],
+                [
+                  99.5505617977528,
+                  41.71875
+                ],
+                [
+                  47.41573033707865,
+                  41.71875
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "X7-MND-SVH",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  45.39325842696629,
+                  42.03125
+                ],
+                [
+                  45.61797752808989,
+                  0
+                ],
+                [
+                  9.662921348314606,
+                  0.3125
+                ],
+                [
+                  9.887640449438202,
+                  41.875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/93f026-21.png"
+    },
+    "id": 20
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371212,
+        "id": 13001,
+        "lead_time": 27.505,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ef6Lyx2gJS",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.865168539325842,
+                  7.03125
+                ],
+                [
+                  91.68539325842697,
+                  7.34375
+                ],
+                [
+                  92.13483146067416,
+                  93.28125
+                ],
+                [
+                  9.662921348314606,
+                  93.28125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/5c123e-14.png"
+    },
+    "id": 13
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624371247,
+        "id": 14001,
+        "lead_time": 22.8,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "-6dBzf1hGY",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.539325842696629,
+                  3.59375
+                ],
+                [
+                  91.46067415730337,
+                  1.875
+                ],
+                [
+                  91.23595505617978,
+                  93.75
+                ],
+                [
+                  7.415730337078652,
+                  93.125
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/bd4804-15.png"
+    },
+    "id": 14
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373489,
+        "id": 51001,
+        "lead_time": 19.547,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "s2vI6-Pyqf",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  91.01123595505618,
+                  98.75
+                ],
+                [
+                  6.067415730337078,
+                  99.21875
+                ],
+                [
+                  6.292134831460674,
+                  0
+                ],
+                [
+                  91.01123595505618,
+                  0.46875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/74f7b0-52.png"
+    },
+    "id": 51
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624370855,
+        "id": 5001,
+        "lead_time": 100.204,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "rE1IIZEqyt",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.6741573033707865,
+                  0.625
+                ],
+                [
+                  99.10112359550561,
+                  0.78125
+                ],
+                [
+                  98.87640449438203,
+                  98.75
+                ],
+                [
+                  2.696629213483146,
+                  98.125
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/df406b-6.png"
+    },
+    "id": 5
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373245,
+        "id": 46001,
+        "lead_time": 18.725,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Kn-pDcE_M7",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  99.53125
+                ],
+                [
+                  94.8314606741573,
+                  98.4375
+                ],
+                [
+                  93.48314606741573,
+                  7.8125
+                ],
+                [
+                  2.247191011235955,
+                  7.5
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/677ecc-47.png"
+    },
+    "id": 46
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372591,
+        "id": 35001,
+        "lead_time": 24.502,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "pGsijF0qjW",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.415730337078652,
+                  0
+                ],
+                [
+                  98.87640449438203,
+                  0
+                ],
+                [
+                  98.87640449438203,
+                  93.4375
+                ],
+                [
+                  8.98876404494382,
+                  92.5
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/179830-36.png"
+    },
+    "id": 35
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624373431,
+        "id": 50001,
+        "lead_time": 20.166,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "WNZUNUknJu",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  8.98876404494382,
+                  99.0625
+                ],
+                [
+                  93.03370786516854,
+                  98.4375
+                ],
+                [
+                  93.03370786516854,
+                  0.15625
+                ],
+                [
+                  8.764044943820224,
+                  0.15625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/cba7be-51.png"
+    },
+    "id": 50
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372159,
+        "id": 26001,
+        "lead_time": 88.29,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "PeMvk5GAhU",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  4.943820224719101,
+                  40.15625
+                ],
+                [
+                  5.168539325842697,
+                  59.375
+                ],
+                [
+                  65.1685393258427,
+                  59.375
+                ],
+                [
+                  65.1685393258427,
+                  39.84375
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "rgeq5eRTK6",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0.449438202247191,
+                  0
+                ],
+                [
+                  0,
+                  37.1875
+                ],
+                [
+                  91.23595505617978,
+                  37.96875
+                ],
+                [
+                  91.91011235955057,
+                  0.625
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "eOsG0ZINq9",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  67.19101123595506,
+                  40
+                ],
+                [
+                  67.19101123595506,
+                  58.75
+                ],
+                [
+                  90.56179775280899,
+                  59.0625
+                ],
+                [
+                  90.56179775280899,
+                  40
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "RmoTU1MQvm",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  0,
+                  61.875
+                ],
+                [
+                  91.01123595505618,
+                  61.25
+                ],
+                [
+                  90.78651685393258,
+                  98.125
+                ],
+                [
+                  1.348314606741573,
+                  99.21875
+                ]
+              ],
+              "polygonlabels": [
+                "Drama"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/01c9e3-27.png"
+    },
+    "id": 26
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624372056,
+        "id": 25001,
+        "lead_time": 65.709,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "AHFoa-74EZ",
+            "image_rotation": 0,
+            "original_height": 640,
+            "original_width": 445,
+            "to_name": "image",
+            "type": "polygonlabels",
+            "value": {
+              "points": [
+                [
+                  7.865168539325842,
+                  0.46875
+                ],
+                [
+                  99.32584269662921,
+                  0.15625
+                ],
+                [
+                  99.5505617977528,
+                  99.21875
+                ],
+                [
+                  6.966292134831461,
+                  98.75
+                ]
+              ],
+              "polygonlabels": [
+                "Action"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "image": "/data/upload/652a79-26.png"
+    },
+    "id": 25
+  }
+]
