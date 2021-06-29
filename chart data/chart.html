@@ -17,7 +17,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Berserk</p>
                     </div>
                </div>
           </div>
@@ -35,7 +35,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Vagabond</p>
                     </div>
                </div>
           </div>
@@ -53,7 +53,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Full Metal</p>
                     </div>
                </div>
           </div>
@@ -71,7 +71,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Grand Blue</p>
                     </div>
                </div>
           </div>
@@ -89,7 +89,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Jojo No Kimyou</p>
                     </div>
                </div>
           </div>
@@ -107,7 +107,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Kingdom</p>
                     </div>
                </div>
           </div>
@@ -125,7 +125,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>One Piece</p>
                     </div>
                </div>
           </div>
@@ -143,7 +143,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Oyasumi</p>
                     </div>
                </div>
           </div>
@@ -161,7 +161,7 @@
                <div class="col-lg-12">
                     <div class="section-heading">
                          <h6>Chart Pie</h6>
-                         <p>Genre Paling Banayak</p>
+                         <p>Slam Dunk</p>
                     </div>
                </div>
           </div>
@@ -175,6 +175,7 @@
           </div>
 
           <script>
+               //Chart1
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -253,7 +254,9 @@
                          });
                     });
                });
+               //endchart1
 
+               //Chart2
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -302,11 +305,11 @@
                          });
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
-                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         //str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
                          str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -314,7 +317,7 @@
                          $('#chart2').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Fantasy, Drama];
 
                          //chart
                          var data = {
@@ -332,7 +335,9 @@
                          });
                     });
                });
+               //endchart2
 
+               //chart3
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -382,10 +387,10 @@
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
                          str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
                          str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -393,7 +398,7 @@
                          $('#chart3').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Adventure, Fantasy, Drama];
 
                          //chart
                          var data = {
@@ -411,7 +416,9 @@
                          });
                     });
                });
+               //endchart3
 
+               //chart4
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -462,7 +469,7 @@
                          str2 += '<tr><td> Action = ' + Action + '</td>';
                          str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
                          str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
-                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         //str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
                          str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
@@ -472,7 +479,7 @@
                          $('#chart4').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Adventure, Comedy, Drama, Adult];
 
                          //chart
                          var data = {
@@ -490,7 +497,9 @@
                          });
                     });
                });
+               //enchart4
 
+               //chart5
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -539,11 +548,11 @@
                          });
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
-                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         //str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
                          str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -551,7 +560,7 @@
                          $('#chart5').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Fantasy, Drama, ];
 
                          //chart
                          var data = {
@@ -569,7 +578,9 @@
                          });
                     });
                });
+               //endchart5
 
+               //chart6
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -618,11 +629,11 @@
                          });
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
-                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
-                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         //str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         //str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -630,7 +641,7 @@
                          $('#chart6').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Drama];
 
                          //chart
                          var data = {
@@ -648,7 +659,9 @@
                          });
                     });
                });
+               //enchart6
 
+               //chart7
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -699,9 +712,9 @@
                          str2 += '<tr><td> Action = ' + Action + '</td>';
                          str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
                          str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
-                         str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         //str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -709,7 +722,7 @@
                          $('#chart7').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Action, Adventure, Comedy, Drama];
 
                          //chart
                          var data = {
@@ -727,7 +740,9 @@
                          });
                     });
                });
+               //endchart7
 
+               //chart8
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -775,9 +790,9 @@
                               }
                          });
 
-                         str2 += '<tr><td> Action = ' + Action + '</td>';
-                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Action = ' + Action + '</td>';
+                         //str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         //str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
                          str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
                          str2 += '<tr><td> Adult = ' + Adult + '</td>';
@@ -788,7 +803,7 @@
                          $('#chart8').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Fantasy, Drama, Adult];
+                         var genre = [Fantasy, Drama, Adult];
 
                          //chart
                          var data = {
@@ -806,7 +821,9 @@
                          });
                     });
                });
+               //enchart8
 
+               //chart9
                $(function () {
                     var str2 = '<table>';
                     var Total = 0,
@@ -855,11 +872,7 @@
                          });
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
-                         // str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
-                         // str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
-                         // str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
-                         // str2 += '<tr><td> Adult = ' + Adult + '</td>';
                          str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
@@ -885,6 +898,7 @@
                          });
                     });
                });
+               //endchart9
           </script>
      </body>
 </html>
