@@ -21,6 +21,9 @@
           <link rel="stylesheet" href="../../../assets/css/owl.css" />
           <!-- file jquery -->
           <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+          <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" />
+          <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
           <!--
 
 TemplateMo 563 SEO Dream
@@ -78,6 +81,14 @@ https://templatemo.com/tm-563-seo-dream
                          </div>
                     </div>
                     <div class="row">
+                         <div class="col-md-6">
+                              <div class="ct-chart ct-chart7 ct-golden-section"></div>
+                         </div>
+                         <div class="col-md-6">
+                              <div id="chart7"></div>
+                         </div>
+                    </div>
+                    <div class="row">
                          <div class="col-md-12">
                               <div id="data_manga"></div>
                          </div>
@@ -123,6 +134,87 @@ https://templatemo.com/tm-563-seo-dream
                          $('#data_manga').html(str);
                     });
                });
+
+               //chart7
+               $(function () {
+                    var str2 = '<table>';
+                    var Total = 0,
+                         Action = 0,
+                         Adventure = 0,
+                         Comedy = 0,
+                         Fantasy = 0,
+                         Drama = 0,
+                         Adult = 0;
+
+                    $.get('one piece.json', function (obj) {
+                         str2 = '<table class="table"><thead class="thead-dark"><tr><th scope="col">Genre</th></thead><tbody>';
+
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   Total++;
+                                   switch (data.completions[0].result[0].value.polygonlabels[index]) {
+                                        case 'Action':
+                                             Action++;
+                                             break;
+
+                                        case 'Adventure':
+                                             Adventure++;
+                                             break;
+
+                                        case 'Comedy':
+                                             Comedy++;
+                                             break;
+
+                                        case 'Fantasy':
+                                             Fantasy++;
+                                             break;
+
+                                        case 'Drama':
+                                             Drama++;
+                                             break;
+
+                                        case 'Adult':
+                                             Adult++;
+                                             break;
+
+                                        default:
+                                             break;
+                                   }
+                              }
+                         });
+
+                         str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
+                         str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
+                         //str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
+                         str2 += '<tr><td> Drama = ' + Drama + '</td>';
+                         //str2 += '<tr><td> Adult = ' + Adult + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
+
+                         str2 += '</tbody></table>';
+
+                         $('#chart7').html(str2);
+
+                         //sorting variabel
+                         var genre = [Action, Adventure, Comedy, Drama];
+
+                         //chart
+                         var data = {
+                              series: genre,
+                         };
+
+                         var sum = function (a, b) {
+                              return a + b;
+                         };
+
+                         new Chartist.Pie('.ct-chart7', data, {
+                              labelInterpolationFnc: function (value) {
+                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
+                              },
+                         });
+                    });
+               });
+               //endchart7
           </script>
      </body>
 </html>
