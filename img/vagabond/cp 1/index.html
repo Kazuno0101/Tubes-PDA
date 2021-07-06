@@ -114,6 +114,7 @@ https://templatemo.com/tm-563-seo-dream
                                    <img src="../chara/Honiden, Matahachi.jpg" class="card-img-top" alt="Honiden, Matahachi" />
                                    <div class="card-body">
                                         <p class="card-text text-center">Honiden, Matahachi</p>
+                                        <p class="text-muted text-center">Contoh</p>
                                    </div>
                               </div>
                          </div>
@@ -345,7 +346,7 @@ https://templatemo.com/tm-563-seo-dream
                          $.each(obj, function (n, data) {
                               for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
                                    if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
-                                        str += "<img src='" + idata.id+ ".png' alt='Gambar" + idata.id+ "'class='mb-3'>";
+                                        str += "<img src='" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
                                    }
                               }
                          });
@@ -362,7 +363,7 @@ https://templatemo.com/tm-563-seo-dream
                          $.each(obj, function (n, data) {
                               for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
                                    if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
-                                        str += "<img src='" + i + data.id.png' alt='Gambar" + i + data.id'class='mb-3'>";
+                                        str += "<img src='" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
                                    }
                               }
                          });
@@ -379,7 +380,7 @@ https://templatemo.com/tm-563-seo-dream
                          $.each(obj, function (n, data) {
                               for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
                                    if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
-                                        str += "<img src='" + idata.id+ ".png' alt='Gambar" + idata.id+ "'class='mb-3'>";
+                                        str += "<img src='" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
                                    }
                               }
                          });
@@ -396,7 +397,7 @@ https://templatemo.com/tm-563-seo-dream
                          $.each(obj, function (n, data) {
                               for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
                                    if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
-                                        str += "<img src='" + i data.id ".png' alt='Gambar" + i data.id "'class='mb-3'>";
+                                        str += "<img src='" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
                                    }
                               }
                          });
