@@ -349,7 +349,7 @@ https://templatemo.com/tm-563-seo-dream
                </div>
           </div>
 
-          <div id="tags">
+          <div id="tags" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                <div class="container">
                     <div class="row" style="margin-bottom: -20px">
                          <div class="col-lg-12">
@@ -358,41 +358,53 @@ https://templatemo.com/tm-563-seo-dream
                               </div>
                          </div>
                     </div>
+                    <div class="row mb-3">
+                         <div class="col-lg-11">
+                              <div class="d-grid gap-2">
+                                   <button type="button" class="btn btn-primary" id="full">All Genre</button>
+                              </div>
+                         </div>
+                         <div class="col-lg-1">
+                              <div class="d-grid gap-2">
+                                   <button type="button" class="btn btn-primary" id="reset">Reset</button>
+                              </div>
+                         </div>
+                    </div>
                     <div class="row mb-5">
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Action</button>
+                                   <button type="button" class="btn btn-primary" id="action">Action</button>
                               </div>
                          </div>
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Adventure</button>
+                                   <button type="button" class="btn btn-primary" id="adventure">Adventure</button>
                               </div>
                          </div>
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Comedy</button>
+                                   <button type="button" class="btn btn-primary" id="comedy">Comedy</button>
                               </div>
                          </div>
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Fantasy</button>
+                                   <button type="button" class="btn btn-primary" id="fantasy">Fantasy</button>
                               </div>
                          </div>
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Drama</button>
+                                   <button type="button" class="btn btn-primary" id="drama">Drama</button>
                               </div>
                          </div>
                          <div class="col-lg-2">
                               <div class="d-grid gap-2">
-                                   <button type="button" class="btn btn-primary">Adult</button>
+                                   <button type="button" class="btn btn-primary" id="adult">Adult</button>
                               </div>
                          </div>
                     </div>
 
                     <div class="row">
-                         <div class="col-md-12">
+                         <div class="col-lg-12">
                               <div id="data_genre"></div>
                          </div>
                     </div>
@@ -556,23 +568,936 @@ https://templatemo.com/tm-563-seo-dream
 
                $(function () {
                     $.get('hasilscrapingmanga.json', function (obj) {
-                         var str = '<table>';
-
-                         str =
-                              '<table class="table"><thead class="thead-dark"><tr><th scope="col">Rank</th><th scope="col">Judul</th><th scope="col">Tahun Rilis</th><th scope="col">Members</th><th scope="col">Rating</th><th scope="col">Gambar</th></tr></thead><tbody>';
+                         var str = 'Genre';
 
                          $.each(obj, function (n, data) {
-                              str += '<tr><td scope=row>' + data.Rank + '</td>';
-                              str += '<td>' + data.Judul + '</td>';
-                              str += '<td>' + data.Tahun_Rilis + '</td>';
-                              str += '<td>' + data.Members + '</td>';
-                              str += '<td>' + data.Rating + '</td>';
-                              str += '<td><img src=" ' + data.Image + ' " alt=" ' + data.Image + ' " class="img-thumbnail"></td>';
+                              // str += '<tr><td scope=row>' + data.Rank + '</td>';
+                              // str += '<td>' + data.Judul + '</td>';
+                              // str += '<td>' + data.Tahun_Rilis + '</td>';
+                              // str += '<td>' + data.Members + '</td>';
+                              // str += '<td>' + data.Rating + '</td>';
+                              // str += '<td><img src=" ' + data.Image + ' " alt=" ' + data.Image + ' " class="img-thumbnail"></td>';
                          });
-                         str += '</tbody></table>';
                          $('#data_genre').html(str);
                     });
                });
+
+               //Genre
+
+               // Full
+               $('#full').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/hasilscraping.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/berserk/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/hasilscraping.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/fullmetal/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/hasilscraping_grandblue.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/grand blue/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/hasilscraping_jojo.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/jojo no kimyou na bouken/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/hasilscraping_kingdom.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/kingdom/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one piece/cp 1/hasilscraping.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/one piece/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/hasilscraping_oyasumi.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/oyasumi/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/hasilscraping_slamdunk.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/slam dunk/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/hasilscraping_vagabond.json', function (obj) {
+                         var i = 1;
+
+                         $.each(obj, function (n, data) {
+                              str += "<div class='col-md-3'>";
+                              str += "<img src='img/vagabond/cp 1/" + i + ".png' alt='Gambar" + i + "'class='mb-3'>";
+                              str += '</div>';
+                              i++;
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               $('#reset').click(function () {
+                    var str = '';
+                    $('#data_genre').html(str);
+               });
+
+               // Action
+               $('#action').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Action') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               // Adventure
+               $('#adventure').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adventure') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               // Comedy
+               $('#comedy').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Comedy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               // Fantasy
+               $('#fantasy').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Fantasy') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               // Drama
+               $('#drama').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Drama') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               // Adult
+               $('#adult').click(function () {
+                    var str = "<div class='row'>";
+
+                    $.get('img/berserk/cp 1/berserk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/berserk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/fullmetal/cp 1/FullMetal.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/fullmetal/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/grand blue/cp 1/Grand Blue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/grand blue/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/Jojo No Kimyou.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/jojo no kimyou na bouken/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/kingdom/cp 1/kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/kingdom/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/one Piece/cp 1/one piece.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/one Piece/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/oyasumi/cp 1/oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/oyasumi/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/slam dunk/cp 1/slam Dunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/slam dunk/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+
+                    $.get('img/vagabond/cp 1/vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              for (let index = 0; index < data.completions[0].result[0].value.polygonlabels.length; index++) {
+                                   if (data.completions[0].result[0].value.polygonlabels[index] == 'Adult') {
+                                        str += "<div class='col-md-3'>";
+                                        str += "<img src='img/vagabond/cp 1/" + data.id + ".png' alt='Gambar" + data.id + "'class='mb-3'>";
+                                        str += '</div>';
+                                   }
+                              }
+                         });
+
+                         $('#data_genre').html(str);
+                    });
+               });
+
+               //End Genre
           </script>
      </body>
 </html>
