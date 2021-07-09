@@ -52,18 +52,18 @@ https://templatemo.com/tm-563-seo-dream
                               <nav class="main-nav">
                                    <!-- ***** Logo Start ***** -->
                                    <a href="index.html" class="logo">
-                                        <h4>Top Manga <img src="assets/images/logo.png" style="width: 100px; height: 80px;" /></h4>
+                                        <h4>Top Manga <img src="assets/images/logo.png" style="width: 100px; height: 80px" /></h4>
                                    </a>
                                    <!-- ***** Logo End ***** -->
                                    <!-- ***** Menu Start ***** -->
                                    <ul class="nav">
-                                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                                        <li class="scroll-to-section"><a href="#features">Visual</a></li>
+                                        <li class="scroll-to-section"><a href="#features">Features</a></li>
                                         <li class="scroll-to-section"><a href="#manga">Manga</a></li>
-                                        <li class="scroll-to-section"><a href="#list">List Manga</a></li>
+                                        <li class="scroll-to-section"><a href="#tags">Genre</a></li>
+                                        <li class="scroll-to-section"><a href="#list">Top 100</a></li>
                                         <li class="scroll-to-section"><a href="#aboutUs">About Us</a></li>
                                         <li class="scroll-to-section">
-                                             <div class="main-blue-button"><a href="#features">Start</a></div>
+                                             <div class="main-blue-button"><a href="#top">Home</a></div>
                                         </li>
                                    </ul>
                                    <a class="menu-trigger">
@@ -105,8 +105,7 @@ https://templatemo.com/tm-563-seo-dream
                                                        <br />
                                                   </div>
                                                   <div class="col-lg-12">
-                                                       <div class="main-green-button scroll-to-section">
-                                                       </div>
+                                                       <div class="main-green-button scroll-to-section"></div>
                                                   </div>
                                              </div>
                                         </div>
@@ -134,9 +133,9 @@ https://templatemo.com/tm-563-seo-dream
                                                        <h6>01</h6>
                                                   </div>
                                                   <div class="icon"></div>
-                                                  <h4>Banyak File</h4>
+                                                  <h4>Baca Manga</h4>
                                                   <div class="line-dec"></div>
-                                                  <p>Program kami memiliki 100 file manga dengan berbagai genre serta dari berbagai author.</p>
+                                                  <p>Pada website kami, pengguna dapat membaca semua manga per chapternya dengan nyaman.</p>
                                              </div>
                                         </div>
                                         <div class="col-lg-3">
@@ -145,9 +144,9 @@ https://templatemo.com/tm-563-seo-dream
                                                        <h6>02</h6>
                                                   </div>
                                                   <div class="icon"></div>
-                                                  <h4>Kategori</h4>
+                                                  <h4>Filter</h4>
                                                   <div class="line-dec"></div>
-                                                  <p>Berikut visualisasi total dari berbagai kategori atau genre manga.</p>
+                                                  <p>Website kami memanfaatkan fungsi filter untuk memfilter tiap scene pada manga berdasarkan genre-nya.</p>
                                              </div>
                                         </div>
                                         <div class="col-lg-3">
@@ -156,21 +155,20 @@ https://templatemo.com/tm-563-seo-dream
                                                        <h6>03</h6>
                                                   </div>
                                                   <div class="icon"></div>
-                                                  <h4>Ukuran File</h4>
+                                                  <h4>List Top 100 Manga</h4>
                                                   <div class="line-dec"></div>
-                                                  <p>Ukuran file semua manga yang kami miliki di program kami sebesar :</p>
+                                                  <p>Website kami menyediakan list top 100 manga berdasarkan pada situs MyAnimelist.</p>
                                              </div>
                                         </div>
                                         <div class="col-lg-3">
                                              <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                                                   <div class="fourth-number number">
-                                                       <!-- belum tau mau ganti apa -->
                                                        <h6>04</h6>
                                                   </div>
                                                   <div class="icon"></div>
-                                                  <h4>Analyze the result</h4>
+                                                  <h4>Statistik Chapter</h4>
                                                   <div class="line-dec"></div>
-                                                  <p>Below circular progress bar animation supports those CSS values 10, 20, 30, till 100.</p>
+                                                  <p>Pada website kami, pengguna dapat melihat bagaimana statistik dari setiap genre pada setiap chapter manga.</p>
                                              </div>
                                         </div>
                                    </div>
@@ -180,7 +178,7 @@ https://templatemo.com/tm-563-seo-dream
                </div>
           </div>
 
-          <div id="manga" class="our-portfolio section">
+          <div id="manga" class="our-portfolio section wow fadeInLeft mt-5" data-wow-duration="1s" data-wow-delay="0.5s">
                <div class="container">
                     <div class="row">
                          <div class="col-lg-5">
@@ -192,13 +190,16 @@ https://templatemo.com/tm-563-seo-dream
                     </div>
                     <div class="row mb-5">
                          <div class="col-lg-2">
-                              <button type="button" class="btn btn-primary">File <span class="badge bg-secondary">4</span></button>
+                              <button type="button" class="btn btn-primary">File <span class="badge bg-secondary" id="info-file">4</span></button>
                          </div>
                          <div class="col-lg-2">
-                              <button type="button" class="btn btn-primary">Manga <span class="badge bg-secondary">4</span></button>
+                              <button type="button" class="btn btn-primary">Manga <span class="badge bg-secondary" id="info-manga">4</span></button>
                          </div>
                          <div class="col-lg-2">
-                              <button type="button" class="btn btn-primary">Chapter <span class="badge bg-secondary">4</span></button>
+                              <button type="button" class="btn btn-primary">Chapter <span class="badge bg-secondary" id="info-chapter">4</span></button>
+                         </div>
+                         <div class="col-lg-2">
+                              <button type="button" class="btn btn-primary">Genre <span class="badge bg-secondary" id="info-genre">4</span></button>
                          </div>
                     </div>
                </div>
@@ -409,7 +410,7 @@ https://templatemo.com/tm-563-seo-dream
                </div>
           </div>
 
-          <div id="list" class="mt-5">
+          <div id="list" class="wow fadeInUpBig mt-5" data-wow-duration="1s" data-wow-delay="0.5s">
                <div class="container">
                     <div class="row">
                          <div class="col-lg-12">
@@ -427,7 +428,7 @@ https://templatemo.com/tm-563-seo-dream
                </div>
           </div>
 
-          <div id="aboutUs" class="our-services section">
+          <div id="aboutUs" class="our-services section wow fadeInUpBig mt-5" data-wow-duration="1s">
                <div class="container">
                     <div class="row">
                          <div class="col-lg-6 offset-lg-3">
@@ -445,12 +446,15 @@ https://templatemo.com/tm-563-seo-dream
                                    <div class="row">
                                         <div class="col-lg-4">
                                              <img src="assets/images/pp-dimas.jpg" alt="" />
-                                             <center><a href="https://www.instagram.com/maskur17_/" title="Dimas Kurniawan"><p>Instagram</p><img src="assets/images/ig.png" style="width: 35px; height: 35px; position: auto"></a></center>
                                         </div>
                                         <div class="col-lg-8">
                                              <div class="right-content">
                                                   <h4>Dimas Kurniawan</h4>
-                                                  <p>Sebagai Programmer.</p><br>
+                                                  <p>Sebagai Programmer.</p>
+                                                  <a class="text-decoration-none text-dark" href="https://www.instagram.com/maskur17_/">
+                                                       <i class="fa fa-instagram"></i>
+                                                       Maskur17_
+                                                  </a>
                                              </div>
                                         </div>
                                    </div>
@@ -461,12 +465,15 @@ https://templatemo.com/tm-563-seo-dream
                                    <div class="row">
                                         <div class="col-lg-4">
                                              <img src="assets/images/pp-eben.jpg" alt="" />
-                                             <center><a href="https://www.instagram.com/eben.napitu29/" title="Eben Ezer Napitu"><p>Instagram</p><img src="assets/images/ig.png" style="width: 35px; height: 35px;"> </a></center>
                                         </div>
                                         <div class="col-lg-8">
                                              <div class="right-content">
                                                   <h4>Eben Ezer Napitu</h4>
-                                                  <p>Sebagai Desainer.</p><br>                                                
+                                                  <p>Sebagai Desainer.</p>
+                                                  <a class="text-decoration-none text-dark" href="https://www.instagram.com/eben.napitu29/">
+                                                       <i class="fa fa-instagram"></i>
+                                                       Eben.napitu29
+                                                  </a>
                                              </div>
                                         </div>
                                    </div>
@@ -476,14 +483,16 @@ https://templatemo.com/tm-563-seo-dream
                               <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                                    <div class="row">
                                         <div class="col-lg-4">
-                                             <center><img src="assets/images/pp-fasya.jpg" alt="" />
-                                             <a href="https://www.instagram.com/fasyanf/" title="Fasya Nur Fauzziyah"><p>Instagram</p><img src="assets/images/ig.png" style="width: 35px; height: 35px;"></a></center>
+                                             <img src="assets/images/pp-fasya.jpg" alt="" />
                                         </div>
                                         <div class="col-lg-8">
                                              <div class="right-content">
                                                   <h4>Fasya Nur Fauzziyah</h4>
-                                                  <p>Sebagai Analyst.</p><br>
-                                                  
+                                                  <p>Sebagai Analyst.</p>
+                                                  <a class="text-decoration-none text-dark" href="https://www.instagram.com/fasyanf/">
+                                                       <i class="fa fa-instagram"></i>
+                                                       Fasyanf
+                                                  </a>
                                              </div>
                                         </div>
                                    </div>
@@ -494,12 +503,15 @@ https://templatemo.com/tm-563-seo-dream
                                    <div class="row">
                                         <div class="col-lg-4">
                                              <img src="assets/images/pp-fiora.jpg" alt="" />
-                                             <center><a href="https://www.instagram.com/fiobrlna/" title="Fiora Berliana Putri"><p>Instagram</p><img src="assets/images/ig.png" style="width: 35px; height: 35px;"></a></center>
                                         </div>
                                         <div class="col-lg-8">
                                              <div class="right-content">
                                                   <h4>Fiora Berliana Putri</h4>
-                                                  <p>Sebagai Analyst.</p><br>  
+                                                  <p>Sebagai Analyst.</p>
+                                                  <a class="text-decoration-none text-dark" href="https://www.instagram.com/fiobrlna/">
+                                                       <i class="fa fa-instagram"></i>
+                                                       Fiobrlna
+                                                  </a>
                                              </div>
                                         </div>
                                    </div>
@@ -510,12 +522,15 @@ https://templatemo.com/tm-563-seo-dream
                                    <div class="row">
                                         <div class="col-lg-4">
                                              <img src="assets/images/pp-nuno.jpg" alt="" />
-                                             <center><a href="https://www.instagram.com/kazuno_nuno/" title="Nuno Alwi Azimah"><p>Instagram</p><img src="assets/images/ig.png" style="width: 35px; height: 35px;"></a></center>
                                         </div>
                                         <div class="col-lg-8">
                                              <div class="right-content">
                                                   <h4>Nuno Alwi Azimah</h4>
-                                                  <p>Sebagai Leader dan Programmer.</p><br> 
+                                                  <p>Sebagai Leader dan Programmer.</p>
+                                                  <a class="text-decoration-none text-dark" href="https://www.instagram.com/kazuno_nuno/">
+                                                       <i class="fa fa-instagram"></i>
+                                                       Kazuno_nuno
+                                                  </a>
                                              </div>
                                         </div>
                                    </div>
@@ -531,7 +546,6 @@ https://templatemo.com/tm-563-seo-dream
                          <div class="col-lg-12">
                               <p>
                                    Copyright © 2021 Top Manga, BETHREE. All Rights Reserved.
-
                                    <!-- <br>Web Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a></p> -->
                               </p>
                          </div>
@@ -553,6 +567,7 @@ https://templatemo.com/tm-563-seo-dream
                $(function () {
                     $.get('hasilscrapingmanga.json', function (obj) {
                          var str = '<table>';
+                         var i = 0;
 
                          str =
                               '<table class="table"><thead class="thead-dark"><tr><th scope="col">Rank</th><th scope="col">Judul</th><th scope="col">Tahun Rilis</th><th scope="col">Members</th><th scope="col">Rating</th><th scope="col">Gambar</th></tr></thead><tbody>';
@@ -564,26 +579,71 @@ https://templatemo.com/tm-563-seo-dream
                               str += '<td>' + data.Members + '</td>';
                               str += '<td>' + data.Rating + '</td>';
                               str += '<td><img src=" ' + data.Image + ' " alt=" ' + data.Image + ' " class="img-thumbnail"></td>';
+                              i++;
                          });
                          str += '</tbody></table>';
                          $('#data_manga').html(str);
+                         $('#info-manga').html(i);
                     });
-               });
+                    var file = 0;
 
-               $(function () {
-                    $.get('hasilscrapingmanga.json', function (obj) {
-                         var str = 'Genre';
-
+                    $.get('img/berserk/cp 1/hasilscraping.json', function (obj) {
                          $.each(obj, function (n, data) {
-                              // str += '<tr><td scope=row>' + data.Rank + '</td>';
-                              // str += '<td>' + data.Judul + '</td>';
-                              // str += '<td>' + data.Tahun_Rilis + '</td>';
-                              // str += '<td>' + data.Members + '</td>';
-                              // str += '<td>' + data.Rating + '</td>';
-                              // str += '<td><img src=" ' + data.Image + ' " alt=" ' + data.Image + ' " class="img-thumbnail"></td>';
+                              file++;
                          });
-                         $('#data_genre').html(str);
                     });
+
+                    $.get('img/fullmetal/cp 1/hasilscraping.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/grand blue/cp 1/hasilscraping_grandblue.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/jojo no kimyou na bouken/cp 1/hasilscraping_jojo.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/kingdom/cp 1/hasilscraping_kingdom.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/one piece/cp 1/hasilscraping.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/oyasumi/cp 1/hasilscraping_oyasumi.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/slam dunk/cp 1/hasilscraping_slamdunk.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                    });
+
+                    $.get('img/vagabond/cp 1/hasilscraping_vagabond.json', function (obj) {
+                         $.each(obj, function (n, data) {
+                              file++;
+                         });
+                         $('#info-file').html(file);
+                    });
+
+                    $('#info-chapter').html('9');
+                    $('#info-genre').html('6');
                });
 
                //Genre
