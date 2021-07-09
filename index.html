@@ -570,7 +570,7 @@ https://templatemo.com/tm-563-seo-dream
                          var i = 0;
 
                          str =
-                              '<table class="table"><thead class="thead-dark"><tr><th scope="col">Rank</th><th scope="col">Judul</th><th scope="col">Tahun Rilis</th><th scope="col">Members</th><th scope="col">Rating</th><th scope="col">Gambar</th></tr></thead><tbody>';
+                              '<table class="table"><thead class="thead-dark"><tr><th scope="col">Rank</th><th scope="col">Judul</th><th scope="col">Tahun Rilis</th><th scope="col">Members</th><th scope="col">Rating</th><th scope="col">Waktu</th><th scope="col">Gambar</th></tr></thead><tbody>';
 
                          $.each(obj, function (n, data) {
                               str += '<tr><td scope=row>' + data.Rank + '</td>';
@@ -578,6 +578,7 @@ https://templatemo.com/tm-563-seo-dream
                               str += '<td>' + data.Tahun_Rilis + '</td>';
                               str += '<td>' + data.Members + '</td>';
                               str += '<td>' + data.Rating + '</td>';
+                              str += '<td>' + data.Waktu + '</td>';
                               str += '<td><img src=" ' + data.Image + ' " alt=" ' + data.Image + ' " class="img-thumbnail"></td>';
                               i++;
                          });
