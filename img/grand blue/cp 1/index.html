@@ -19,11 +19,12 @@
           <link rel="stylesheet" href="../../../assets/css/templatemo-seo-dream.css" />
           <link rel="stylesheet" href="../../../assets/css/animated.css" />
           <link rel="stylesheet" href="../../../assets/css/owl.css" />
+
           <!-- file jquery -->
           <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-          <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" />
-          <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+          <!-- chartist -->
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
           <!--
 
 TemplateMo 563 SEO Dream
@@ -214,7 +215,7 @@ https://templatemo.com/tm-563-seo-dream
                     </div>
                     <div class="row">
                          <div class="col-md-6">
-                              <div class="ct-chart ct-chart4 ct-golden-section"></div>
+                              <canvas id="ct-chart4"></canvas>
                          </div>
                          <div class="col-md-6">
                               <div id="chart4"></div>
@@ -499,34 +500,39 @@ https://templatemo.com/tm-563-seo-dream
                          });
 
                          str2 += '<tr><td> Action = ' + Action + '</td>';
+                         str2 += '<tr><td> Total = ' + Total + '</td>';
                          str2 += '<tr><td> Adventure = ' + Adventure + '</td>';
                          str2 += '<tr><td> Comedy = ' + Comedy + '</td>';
                          //str2 += '<tr><td> Fantasy = ' + Fantasy + '</td>';
                          str2 += '<tr><td> Drama = ' + Drama + '</td>';
                          str2 += '<tr><td> Adult = ' + Adult + '</td>';
-                         str2 += '<tr><td> Total = ' + Total + '</td>';
 
                          str2 += '</tbody></table>';
 
                          $('#chart4').html(str2);
 
                          //sorting variabel
-                         var genre = [Action, Adventure, Comedy, Drama, Adult];
+                         var genre = [Action, Adult, Adventure, Comedy, Drama];
 
                          //chart
-                         var data = {
-                              series: genre,
+                         const data = {
+                              labels: ['Action', 'Adult', 'Adventure', 'Comedy', 'Drama'],
+                              datasets: [
+                                   {
+                                        label: 'Genre',
+                                        data: genre,
+                                        backgroundColor: ['rgb(75, 192, 192)', 'rgb(255, 205, 86)', 'rgb(201, 203, 207)', 'rgb(54, 162, 235)', 'rgb(205, 5, 186)'],
+                                   },
+                              ],
                          };
 
-                         var sum = function (a, b) {
-                              return a + b;
+                         const config = {
+                              type: 'polarArea',
+                              data: data,
+                              options: {},
                          };
 
-                         new Chartist.Pie('.ct-chart4', data, {
-                              labelInterpolationFnc: function (value) {
-                                   return Math.round((value / data.series.reduce(sum)) * 100) + '%';
-                              },
-                         });
+                         var myChart = new Chart(document.getElementById('ct-chart4'), config);
                     });
                });
                //enchart4
